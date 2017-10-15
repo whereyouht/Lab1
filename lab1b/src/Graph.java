@@ -1,5 +1,5 @@
 package lab1b;
-//git²âÊÔĞŞ¸Ä
+
 import java.awt.image.BufferedImageFilter;
 import java.io.BufferedWriter;
 import java.io.File;

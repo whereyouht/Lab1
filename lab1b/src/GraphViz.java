@@ -22,7 +22,7 @@
  ******************************************************************************
  */
 package lab1b;
-//git ²âÊÔĞŞ¸Ä
+
 import java.io.BufferedReader;
 import java.io.DataInputStream;
 import java.io.File;

@@ -1,5 +1,5 @@
  package lab1b;
- //git ²âÊÔĞŞ¸Ä
+ 
 import java.util.LinkedList;
 import java.util.Scanner;
 import org.omg.CORBA.PUBLIC_MEMBER;
