@@ -1,4 +1,5 @@
  package lab1b;
+ 
 import java.util.LinkedList;
 import java.util.Scanner;
 import org.omg.CORBA.PUBLIC_MEMBER;
@@ -44,7 +45,7 @@ public class lab1b {
     	switch(cchoice){
     		case 1:
     			String name = null;
-    			String[] s = new String[100];
+    			String[] s = new String[1000];
     			int number;
     			InputStreamReader stdin = new InputStreamReader(System.in);
     			BufferedReader bufin = new BufferedReader(stdin);
