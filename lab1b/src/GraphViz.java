@@ -241,7 +241,7 @@ public class GraphViz
      * @param input Input text file containing the DOT graph
      * source.
      */
-    public void readSource(String input)
+    public void readSource(String input)//∂¡Õº
     {
         StringBuilder sb = new StringBuilder();
 

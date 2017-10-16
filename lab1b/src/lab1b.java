@@ -27,7 +27,7 @@ public class lab1b {
     	
         Graph G =new Graph();
         
-        System.out.println("欢迎您使用本系统！");
+        System.out.println("欢迎您使用本系统！");//循环操作
 		do {
     	System.out.println("\n请按功能选择！");
     	System.out.println("1.从文件读取有向图");

@@ -13,7 +13,7 @@ import java.util.Scanner;
 
 class Constant
 {
-	public static final int MAX = 100000;
+	public static final int MAX = 100000;//设置最大数字
 
 }
  public class Graph {
