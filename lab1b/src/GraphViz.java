@@ -24,7 +24,7 @@
 package lab1b;
 
 import java.io.BufferedReader;
-import java.io.DataInputStream;
+import java.io.DataInputStream;//1
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

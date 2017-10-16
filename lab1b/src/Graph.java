@@ -18,7 +18,7 @@ class Constant
 }
  public class Graph {
 	private static int V;
-	private static int E = 0;
+	private static int E = 0;//1
 	private static HashMap<String, LinkedList<Edge>> Vertex;
 	private static Edge[]  edges;
 	private String [][] Path;

@@ -17,7 +17,7 @@ import lab1b.Graph;
 import lab1b.Graph.Edge;
 public class lab1b {
     public static void main(String[] args){
-    	int cchoice;
+    	int cchoice;//1
     	String word1;
     	String word2;
     	String word3;
