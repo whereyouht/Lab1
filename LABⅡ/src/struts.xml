@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>	 
+    <package name="home" namespace="" extends="struts-default" >
+        <action name="home" class="com.allBook">
+            <result>/index/index.jsp</result>
+        </action>
+        
+        <action name="mm" class="com.allBook">
+            <result name="success">/index/book_management.jsp</result>
+            <result name="add_author" type="redirect">/add_author</result>
+            <result name="book_detail">/index/book_detail.jsp</result>
+        </action>
+        
+        <action name="delete" class="com.deleteBook">
+            <result>/index/book_delete.jsp</result>
+        </action>
+        
+        <action name="add_author" class="com.addAuthor">
+            <result>/index/author_add.jsp</result>
+        </action>
+        
+        <action name="add_book" class="com.allBook">
+            <result>/index/book_management.jsp</result>
+        </action>
+        
+        <action name="modify" class="com.allBook">
+            <result>/index/book_update.jsp</result>
+        </action>
+        
+        <action name="search" class="com.book_search">
+            <result name="no_result">/index/book_search.jsp</result>
+            <result name="result">/index/book_search_and_result_show.jsp</result>
+        </action>
+        
+        <action name="contact" class="com.welcome">
+            <result>/index/contact_us.jsp</result>
+        </action>
+        
+        <action name="about" class="com.welcome">
+            <result>/index/about_us.jsp</result>
+        </action>
+        
+        
+    </package>
+</struts>
