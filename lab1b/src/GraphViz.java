@@ -21,7 +21,7 @@
  *                                                                            *
  ******************************************************************************
  */
-package lab1b;
+package lab1b;//ht
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;

@@ -16,7 +16,7 @@ class Constant
 	public static final int MAX = 100000;//设置最大数字
 
 }
- public class Graph {
+ public class Graph {//ht
 	private static int V;
 	private static int E = 0;
 	private static HashMap<String, LinkedList<Edge>> Vertex;
